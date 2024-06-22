@@ -1,13 +1,20 @@
+import React from 'react'
 import About from './components/About';
+import Nav from './components/Navbar';
 
-import './App.css'
+
 
 function App() {
+  let page
+  
 
   return (
     <>
-      <div className='text-gray-400 bg-gray-900 body-font'>
+      <div className='flex h-screen max-w-screen-2xl bg-background text-secondary'>
+        
+        <Nav />
         <About />
+        
       </div>
     </>
   )
