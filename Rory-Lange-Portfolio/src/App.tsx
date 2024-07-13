@@ -8,20 +8,12 @@ import { Route, Routes } from 'react-router-dom'
 
 
 function App() {
-  let component;
-  switch (window.location.pathname) {
-    case "/":
-      component = <About />
-      break
-    case "/Projects":
-      component = <Projects />
-  }
 
   return (
     <>
-      <div className='flex bg-background text-secondary'>
+      <div className='flex-col h-screen bg-background text-secondary'>
         <Nav />
-        <div>
+        <div className='inset-y-20'>
           <Routes>
             <Route path='/About' element={<About/>} />
             <Route path='/Contact' element={<Contact/>} />

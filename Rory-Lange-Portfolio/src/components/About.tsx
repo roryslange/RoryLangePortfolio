@@ -7,8 +7,8 @@ export default function About() {
 
 
     return(
-        <section>
-            <div id="title">
+        <section className="">
+            <div>
                 <h1>
                     Rory Lange
                 </h1>
