@@ -6,22 +6,16 @@ const Nav = () => {
 
     return (
         <nav className=''>
-            <div className='sticky top-0 h-fit w-screen bg-card'>
+            <div className='sticky py-5 top-0 w-screen bg-card shadow-xl items-center'>
                 <ul className='flex gap-4 justify-center'>
-                    <li className='flex rounded-lg w-[15%] bg-primary'>
-                        <Link className='flex-auto rounded-lg items-center justify-center' to="/About">About</Link>
+                    <li className='flex rounded-lg w-[5%]'>
+                        <Link className='flex flex-auto rounded-lg items-center justify-center' to="/">Home</Link>
                     </li>
-                    <li className='flex rounded-lg w-[15%] bg-primary'>
-                        <Link className='flex-auto rounded-lg items-center justify-center' to="/Projects">Projects</Link>
+                    <li className='flex rounded-lg w-[5%]'>
+                        <Link className='flex flex-auto rounded-lg items-center justify-center' to="/About">Timeline</Link>
                     </li>
-                    <li className='flex rounded-lg w-[15%] bg-primary'>
-                        <Link className='flex-auto rounded-lg items-center justify-center' to="/About">Personal</Link>
-                    </li>
-                    <li className='flex rounded-lg w-[15%] bg-primary'>
-                        <Link className='flex-auto rounded-lg items-center justify-center' to="/About">Experience</Link>
-                    </li>
-                    <li className='flex rounded-lg w-[15%] bg-primary'>
-                        <Link className='flex-auto rounded-lg items-center justify-center' to="/Contact">Contact</Link>
+                    <li className='flex rounded-lg w-[5%]'>
+                        <Link className='flex flex-auto rounded-lg items-center justify-center' to="/Projects">Projects</Link>
                     </li>
                 </ul>
             </div>

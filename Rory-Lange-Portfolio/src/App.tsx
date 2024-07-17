@@ -13,7 +13,7 @@ function App() {
     <>
       <div className='flex-col h-screen bg-background text-secondary'>
         <Nav />
-        <div className='inset-y-20'>
+        <div className='inset-y-20 px-[10%] py-[5%]'>
           <Routes>
             <Route path='/About' element={<About/>} />
             <Route path='/Contact' element={<Contact/>} />
