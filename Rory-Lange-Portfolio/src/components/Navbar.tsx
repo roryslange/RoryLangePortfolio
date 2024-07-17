@@ -5,8 +5,8 @@ const Nav = () => {
 
 
     return (
-        <nav className=''>
-            <div className='sticky py-5 top-0 w-screen bg-card shadow-xl items-center'>
+        <nav className='sticky top-0 z-50'>
+            <div className='py-5 w-screen bg-card shadow-xl items-center'>
                 <ul className='flex gap-4 justify-center'>
                     <li className='flex rounded-lg p-2'>
                         <Link className='flex flex-auto rounded-lg items-center justify-center' to="/">home</Link>
