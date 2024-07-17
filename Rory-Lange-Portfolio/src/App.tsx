@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      <div className='flex-col h-screen bg-card text-secondary'>
+      <div className='flex-col bg-card text-secondary'>
         <Nav />
-        <div className='inset-y-20 mx-[10%] my-[5%]'>
+        <div className='inset-y-20 pb-[5%] mx-[10%] my-[5%]'>
           <Routes>
             <Route path='/About' element={<About/>} />
             <Route path='/Contact' element={<Contact/>} />
