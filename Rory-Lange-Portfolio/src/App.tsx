@@ -1,13 +1,26 @@
+import React from 'react'
 import About from './components/About';
+import Nav from './components/Navbar';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import { Route, Routes } from 'react-router-dom'
 
-import './App.css'
+
 
 function App() {
 
   return (
     <>
-      <div className='text-gray-400 bg-gray-900 body-font'>
-        <About />
+      <div className='flex-col h-screen bg-card text-secondary'>
+        <Nav />
+        <div className='inset-y-20 mx-[10%] my-[5%]'>
+          <Routes>
+            <Route path='/About' element={<About/>} />
+            <Route path='/Contact' element={<Contact/>} />
+            <Route path='/Projects' element={<Projects/>} />
+          </Routes>
+        </div>
+        
       </div>
     </>
   )

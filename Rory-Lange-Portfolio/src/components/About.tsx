@@ -7,8 +7,8 @@ export default function About() {
 
 
     return(
-        <section>
-            <div id="title">
+        <section className="border p-[2.5%] shadow-xl">
+            <div>
                 <h1>
                     Rory Lange
                 </h1>
