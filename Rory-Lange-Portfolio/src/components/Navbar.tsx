@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
@@ -16,6 +15,9 @@ const Nav = () => {
                     </li>
                     <li className='flex rounded-lg p-2'>
                         <Link className='flex flex-auto rounded-lg items-center justify-center' to="/Projects">projects</Link>
+                    </li>
+                    <li className='flex rounded-lg p-2'>
+                        <p className='flex flex-auto rounded-lg items-center justify-center'>socials</p>
                     </li>
                 </ul>
             </div>
