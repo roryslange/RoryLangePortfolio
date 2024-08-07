@@ -13,6 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Rory-Lange-Portfolio
 
     steps:
       - name: checkout code
