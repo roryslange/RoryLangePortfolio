@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react' // removed because it was unable to build if value is not read
 import About from './components/About';
 import Nav from './components/Navbar';
 import Contact from './components/Contact';
