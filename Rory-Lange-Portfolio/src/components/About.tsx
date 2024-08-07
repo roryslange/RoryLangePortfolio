@@ -9,17 +9,15 @@ export default function About() {
                 <br/>
             </div>
 
-            <div>
-                <p className="flex flex-auto">
+            <div className="grid grid-cols-2 text-lg">
+                <p className="">
                 
                     Welcome to my personal website! I am currently a Senior at Wayne State University in Detroit, MI, and my projected graduation date is December 2024. 
                     Throughout my education I have familliarized myself with a large varieties of technologies and frameworks. I am a creative software engineer who has 
                     a strong desire to learn, a passion for programming, and a hardworking mindset.
                 </p>
 
-                <img src='src/assets/roryMotorcycle.jpeg' height={600} width={300} className="flex flex-auto"></img>
-                
-                <br/>
+                <img src='src/assets/roryMotorcycle.jpeg' height={600} width={300} className=""></img>
                 
                 <p>
                     Feel free to explore this website. I wrote this website using React + Vite to extend my knowledge of frontend frameworks. On the Projects tab you can find
