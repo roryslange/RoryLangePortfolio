@@ -25,6 +25,7 @@ export default function About() {
                         
 
                     </p>
+                    
                     <br/>
 
                     <p>
