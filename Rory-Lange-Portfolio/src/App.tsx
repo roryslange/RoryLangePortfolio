@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      <div className='flex-col min-h-screen bg-background text-secondary pb-[2.5%]'>
+      <div className='flex-col min-h-screen bg-background text-secondary text-lg pb-[2.5%]'>
         <Nav />
-        <div className='rounded-sm inset-y-20 mx-[10%] my-[5%] p-[2.5%] shadow-xl bg-card'>
+        <div className='rounded-sm inset-y-20 mx-[10%] my-[2.5%] p-[2.5%] shadow-xl bg-card'>
           <Routes>
             <Route path='/' element={<About/>}/>
             <Route path='/About' element={<About/>} />
@@ -23,6 +23,8 @@ function App() {
             <Route path='/Projects' element={<Projects/>} />
           </Routes>
         </div>
+
+        
         
       </div>
     </>
